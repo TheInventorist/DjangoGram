@@ -26,4 +26,5 @@ def say_hi(request, name, age):
         message = f"sorry {name}, eres un menor"
     else:
         message = f"Hola {name}, bienvenido a PlatziGram"
+        
     return HttpResponse(message)
