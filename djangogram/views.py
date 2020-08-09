@@ -9,8 +9,6 @@ def hello_world(request):
 
 def sortIntegers(request):
     numbers = [int(i) for i in request.GET["numbers"].split(",")]
-    #import pdb; pdb.set_trace()
-    #return HttpResponse(f"hola variable: {variable}")
     sortedList = sorted(numbers)
     data = {
         'status' : '200 ok',
@@ -26,5 +24,5 @@ def say_hi(request, name, age):
         message = f"sorry {name}, eres un menor"
     else:
         message = f"Hola {name}, bienvenido a PlatziGram"
-        
+
     return HttpResponse(message)

@@ -1,5 +1,5 @@
 """
-ASGI config for djangogram project.
+ASGI config for platzigram project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

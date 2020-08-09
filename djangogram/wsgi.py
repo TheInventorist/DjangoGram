@@ -1,5 +1,5 @@
 """
-WSGI config for djangogram project.
+WSGI config for platzigram project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
