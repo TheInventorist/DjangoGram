@@ -9,7 +9,6 @@ urlpatterns = [
     path("hello-world/",local_views.hello_world),
     path("sorted/", local_views.sortIntegers),
     path("hi/<str:name>/<int:age>",local_views.say_hi),
-    path("posts/", posts_views.listPosts),
 ]
 
 
